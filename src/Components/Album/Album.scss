@@ -1,0 +1,22 @@
+.album {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.album:hover {
+    border: 1px solid #f5d533;
+  
+}
+
+.cover {
+    width: 200px;
+}
+
+.author_album {
+    opacity: 60%;
+    margin-top: 8px;
+}
+
+.titleAlbum {
+    margin-top: 10px;
+}

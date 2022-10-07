@@ -1,0 +1,58 @@
+.song {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+    height: 40px;
+    padding: 20px 0;
+    cursor: pointer;
+}
+
+.song:hover .circle {
+    position: absolute;
+    background: #f5d533 ;
+    border-radius: 50%;
+    height: 2em;
+    width: 2em;
+    margin-top: 10px;
+    margin-left: 40px;
+  }
+  .song:hover .circle:after  {
+   position: absolute;
+   content: '';
+   left: 40%;
+   top: 25%;
+   border: 8px solid transparent;
+   border-left: 12px solid #5e5e5e;
+
+  }
+  
+.song:hover  {
+    border: 1px solid #f5d533;
+
+}
+ .song_number, .song_body {
+margin-left: 10px;
+margin-right: 10px;
+ }
+ 
+ .song_left {
+    display: flex;
+}
+.song_image {
+    height: 50px;
+    width: 50px;
+}
+
+.song:hover .song_image {
+    opacity: 40%;
+}
+
+.song_author {
+    opacity: 60%;
+}
+
+.song_time {
+    padding-right: 24px;
+
+}

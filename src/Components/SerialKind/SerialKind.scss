@@ -1,0 +1,17 @@
+.serialKind_cover {
+    width: 200px;
+}
+
+.serialKind_item {
+    display: flex;
+    margin-bottom: 24px;
+    padding: 10px;
+
+}
+.serialKind_item:hover {
+    border: 1px solid #f5d533;
+}
+
+.serialKind_title {
+    margin-left: 10px;
+}

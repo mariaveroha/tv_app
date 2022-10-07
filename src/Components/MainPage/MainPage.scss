@@ -1,0 +1,29 @@
+.main_page_container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    height: 100%;
+    
+}
+
+.main_page_title, .main_page_title_1 {
+    height: 100vh;
+    width: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: x-large;
+
+}
+
+.main_page_title_1 {
+text-decoration: underline #f5d533;
+background-color: #dedede;
+}
+
+.main_page_title:hover {
+text-decoration: underline #f5d533;
+background-color: #dedede;
+
+}

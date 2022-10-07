@@ -1,0 +1,80 @@
+.folder_list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 50px 0;
+}
+.cover_folder {
+    width: 200px;
+}
+.folder {
+    padding: 10px;
+    cursor: pointer;
+}
+.folder:hover  {
+        border: 1px solid #f5d533;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+.songs {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    height: 40px;
+    padding: 20px 0;
+    cursor: pointer;
+}
+
+.songs:hover .circle {
+    position: absolute;
+     background: #f5d533;
+    border-radius: 50%;
+    height: 2em;
+    width: 2em;
+    margin-top: 9px;
+    margin-left: 19px;
+  }
+  .songs:hover .circle:after  {
+   position: absolute;
+   content: '';
+   left: 40%;
+   top: 25%;
+   border: 8px solid transparent;
+   border-left: 12px solid #5e5e5e;
+
+  }
+  
+.songs:hover  {
+    border: 1px solid #f5d533;
+
+}
+.song_cover {
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+.songs:hover .song_cover {
+    opacity: 40%;
+}
+
+
+
+.songs_body {
+margin-left: 10px;
+margin-right: 10px;
+}
+.song_artist {
+    opacity: 60%;
+}
+
+
+.page {
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+

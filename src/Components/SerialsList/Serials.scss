@@ -1,0 +1,52 @@
+
+
+.page_title {
+    font-size: x-large;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.serial_list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.serial{
+    margin-bottom: 24px;
+    padding: 10px;
+    width: 200px;
+}
+
+
+.serial:hover {
+    border: 1px solid #f5d533;
+}
+
+.wallpaper_serial {
+    width: 200px;
+}
+
+.title_serial{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: large;
+}
+
+.menu {
+    display: none;
+}
+.pagination {
+    display: flex;
+    
+}
+
+.pagination_item {
+    border: 1px solid #f5d533;
+    padding: 10px;
+    cursor: pointer;
+}
+

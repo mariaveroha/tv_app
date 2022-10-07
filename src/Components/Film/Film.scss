@@ -1,0 +1,19 @@
+.film {
+    display: flex;
+    margin-bottom: 24px;
+    padding: 10px;
+}
+
+
+.film:hover {
+    border: 1px solid #f5d533;
+}
+
+.film_cover {
+    width: 88px;
+    margin-right: 24px;
+}
+
+.film_description {
+    opacity: 60%;
+}
